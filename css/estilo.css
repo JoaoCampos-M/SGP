@@ -71,3 +71,7 @@ a{
     text-decoration: none;
     color: #00a846;
 }
+img{
+    background-color: gray;
+    margin: 0px auto 0px auto;
+}
