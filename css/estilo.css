@@ -1,0 +1,73 @@
+div{
+    background-color: black;
+}
+body{
+    padding: none!important;
+}
+.btn-risc,button,input[type="submit"]{
+    background-color: #00a846;
+    color: white;   
+    border:none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.center{
+    margin: 0px auto 0px auto;
+}
+form{
+
+    min-width: 150px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    margin: 5px 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+.box {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px
+}
+.box div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center
+}
+fieldset {
+    min-width: 250px;
+    color: #00a846;
+    margin: 5px 0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #DCDCDC
+}
+fieldset legend {
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase
+}
+a{
+    text-decoration: none;
+    color: #00a846;
+}
