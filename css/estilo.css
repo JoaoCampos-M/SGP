@@ -1,49 +1,3 @@
-
-.nav-menu{
-  background-color: #00a846;
-}
-body{
-background-color: black;
-}
-.row{
-color: #00a846;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-}
-.content{
-background-color: #E5E5E5;
-width: auto;
-display: flex;
-flex-direction: column;
-justify-content: space-between
-}
-.content .menu-sup {
-background-color: #00a846
-}
-.content .menu-sup a {
-margin: 0 15px;
-background-color: #267F4B;
-padding: 10px 20px;
-color: #FFF
-}
-.content .box aside {
-background-color: #FFF;
-border-radius: 10px;
-width: 300px
-}
-.content .box .aside-left {
-margin-left: 15px;
-display: flex;
-flex-direction: column;
-justify-content: space-between
-}
-
-
-
-
-
-
 div{
     background-color: black;
 }
@@ -121,4 +75,3 @@ img{
     background-color: gray;
     margin: 0px auto 0px auto;
 }
-
