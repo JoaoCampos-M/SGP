@@ -29,7 +29,7 @@ input[type="tel"],
 input[type="date"],
 select,
 textarea {
-    padding: 10px;
+    padding: 1px;
     border-radius: 5px;
     background-color: #fff;
     border: 1px solid #ccc;
