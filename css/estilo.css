@@ -30,7 +30,7 @@ input[type="date"],
 select,
 textarea {
     padding: 1px;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: #fff;
     border: 1px solid #ccc;
     display: block;
