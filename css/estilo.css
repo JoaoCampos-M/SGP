@@ -1,5 +1,5 @@
-div{
-    background-color: black;
+div.container-fluid{
+    background-color: rgb(229,229,229);
 }
 body{
     padding: none!important;
@@ -41,7 +41,7 @@ textarea {
     appearance: none
 }
 .box {
-    background-color: red;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,7 +73,7 @@ a{
 }
 a:hover{
   text-decoration: none;
-  color:white;
+  color:#00a846;
 }
 
 img{
@@ -86,9 +86,13 @@ img{
 footer{
     padding: 10px 20px;
 }
+.row{
+    padding: 15px 0 15px 0;
+}
 .nav-lat{
     border-radius: 10px;
-    margin: 0 15px 0 15px;
+    margin-left: 15px;
+    
 }
 .logo-nav-sup{
     margin-top: 10px;
@@ -99,4 +103,20 @@ footer{
 .fik{
     margin: 0px;
     padding: 0px;
+    max-width: 22%;
+}
+body{
+    height: 100%;
+}
+.container-fluid{
+    height: 100%;
+}
+.cont{
+    display: block;
+    border-radius: 10px;
+    margin: 0 15px 0 15px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box ;
 }
