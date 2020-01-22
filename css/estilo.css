@@ -29,8 +29,8 @@ input[type="tel"],
 input[type="date"],
 select,
 textarea {
-    padding: 1px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 5px;
     background-color: #fff;
     border: 1px solid #ccc;
     display: block;
