@@ -29,7 +29,7 @@ input[type="tel"],
 input[type="date"],
 select,
 textarea {
-    padding: 10px;
+    padding: 8px 5px;
     border-radius: 5px;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -94,8 +94,12 @@ footer{
     margin-left: 15px;
     
 }
+.logo-cad-sup{
+    margin:10px auto 30px auto; 
+}
 .logo-nav-sup{
     margin-top: 10px;
+    margin-bottom: 100%;
 }
 .logo-nav-inf{
     margin-left: 25%;
@@ -119,4 +123,17 @@ body{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box ;
+}
+.link{
+    background-color: #00a846;
+    color: white;   
+    border:none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.link:hover{
+    color:white;
 }
